@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+   <title>Drawing the plot</title>
+   <meta name="generator" content="Help & Manual">
+   <meta name="keywords" content="plot,plot's border">
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+
+  <!-- Redirect browser to index page if page is not in the content frame.
+       This script is only valid for regular HTML export -->
+  <script language="JavaScript">
+       <!-- 
+           if(top.frames.length==0) top.location.href='index.html?drawproject.html'
+       //-->
+  </script>
+
+
+<body bgcolor="#FFFFFF">
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="2" bgcolor="#C0C0C0">
+  <tr>
+    <td align="left">
+      
+<span style="font-family:Helvetica,Arial; font-size:12pt; color:#000000"><b>Drawing the plot</b><b>
+<br>
+</b></span>
+    </td>
+    <td align="right">
+     <font face="Arial" size="2">
+     <a href="javaScript:parent.reDisplay('2.4',1,0)">Previous</a>&nbsp;
+     <a href="javaScript:parent.reDisplay('2.1',1,0)">Top</a>&nbsp;
+     <a href="javaScript:parent.reDisplay('2.4.2',1,0)">Next</a>
+     </font>
+    </td>
+  </tr>
+</table>
+<br><br>
+
+
+
+<span style="font-family:Times New Roman; font-size:12pt; color:#000000">Drawing the plot is similar to drawing tiles: use <b>Segment</b> <img src="line.png" width="16" height="16" border="0">, <b>Polyline</b> <img src="polyline.png" width="16" height="16" border="0"> and <b>Arc </b><img src="arc.png" width="16" height="16" border="0">. Drawing as a process is described in the <a href=javaScript:parent.reDisplay('3.3',1,0)>Drawing graphic objects</a> article, please view it for more details. If you come across the problem that some <span style="font-family:Times New Roman; font-size:12pt; color:#008000"><u>graphic objects</u></span><span style="font-family:Times New Roman; font-size:12pt; color:#000000"> have wrong size,  edit them, as it is described in the <a href=javaScript:parent.reDisplay('3.4',1,0)>Editing graphic objects</a> article. The process of drawing and editing the graphic object is described in the separate articles, for the same methods are used both for creating tiles and patterns. The main points will be mentioned here for clearness. In this article we will only <span style="font-family:Times New Roman; font-size:12pt; color:#333333">hit the high spots</span></span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">.
+<br>
+
+<br>
+The plot outline is drawn with solid lines. If you show accuracy, you can mark borders and drains by dotted lines on the plot. Since the drawing by non-solid line is potentially dangerous for the plot, and borders and drains processing is currently not supported by the program, you cannot draw using dotted lines. Use solid lines and then <a href=javaScript:parent.reDisplay('3.4',1,0)>change</a></span><span style="font-family:MS Sans Serif; font-size:10pt; color:#000000"> </span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">necessary lines with dotted ones. </span><span style="font-family:MS Sans Serif; font-size:10pt; color:#000000">
+<br>
+</span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">The plot is scalable in meters, centimeters or millimeters. You can configure this parameter in the <a href=javaScript:parent.reDisplay('2.5',1,0)>settings</a>. If the plot is too large and does not fit the display, zoom it out using <img src="zoomout.png" width="16" height="16" border="0"> but note this may influence your accuracy, since it will be harder to hit the required point. For more details please view the <a href=javaScript:parent.reDisplay('3.6',1,0)>Scale</a> article. 
+<br>
+You should pay special attention to when joining the lines together since this factor greatly influences the accuracy of the plottage and paving of the plot. If the real plot size is measured with errors and you cannot draw the closed outline using the specified dimensions, then the program uses a 50 mm spacings between neighboring lines. You can easily modify this value in the <a href=javaScript:parent.reDisplay('2.5',1,0)>settings</a>.</span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+<i><u><table border="1" cellpadding="8"><tr><td align="left" valign="top" width="567">
+<span style="font-family:Times New Roman; font-size:12pt; color:#000000"><b>Advice.</b> View the <a href=javaScript:parent.reDisplay('3.3',1,0)>Drawing graphic objects</a> article for details about using the <a href=javaScript:parent.reDisplay('3.7',1,0)>mini-display</a>.
+<br>
+<b>Practical method:</b> Start drawing the plot from the line along the wall, abutment piece, gate, and any long or axial plot line (or any line that your client will pay your attention to). Consider this line as basic and direct it across or upright. If none of the borders meet your requirements, draw a temporary one that will fit them and do not delete it as soon as you complete the draft. Orient other lines according to the basic one, without paying much attention to orient lines according to the axes of coordinates.<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr></table>
+<br>
+</u></i></span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">If the plot size is greater than the visible part of the workspace, then <a href=javaScript:parent.reDisplay('3.4',1,0)>modify</a> the scale of the draft.
+<br>
+
+<br>
+Inside of the plot you can draw closed outlines that will not be paved, e.g. flowerbeds.
+<br>
+</span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+<a name="startpoint"></span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">After the outline is ready, set the point where the program will start paving the plot: click <img src="startpoint.png" width="16" height="16" border="0"> on the toolbar and left click tot set the point on the draft. If you come across any difficulties and cannot accurately set the reference point, go to <b>Plot &gt; Reference point &gt; Adjust reference point</b> and set the point using coordinates menu.
+<br>
+</span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">Here is the example of a plot:</span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+<img src="projectstep2.png" width="568" height="310" border="0">
+<br>
+<table border="1" cellpadding="8"><tr><td align="left" valign="top" width="559">
+<span style="font-family:Times New Roman; font-size:12pt; color:#000000"><b>Note.</b> In the example above the reference point is random, though more often it is set on the border or in the corner of the plot.<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr></table>
+<br>
+
+<br>
+</span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">Now we can pass to the next step  - <a href=javaScript:parent.reDisplay('2.4.2',1,0)>selecting the pattern</a>.</span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+
+<br>
+</span></span>
+
+</body>
+</html>

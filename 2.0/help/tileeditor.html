@@ -1,0 +1,174 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+   <title>Tiles editor</title>
+   <meta name="generator" content="Help & Manual">
+   <meta name="keywords" content="tile,draw a tile">
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+
+  <!-- Redirect browser to index page if page is not in the content frame.
+       This script is only valid for regular HTML export -->
+  <script language="JavaScript">
+       <!-- 
+           if(top.frames.length==0) top.location.href='index.html?tileeditor.html'
+       //-->
+  </script>
+
+
+<body bgcolor="#FFFFFF">
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="2" bgcolor="#C0C0C0">
+  <tr>
+    <td align="left">
+      
+<span style="font-family:Helvetica,Arial; font-size:12pt; color:#000000"><b>Tiles editor</b><b>
+<br>
+</b></span>
+    </td>
+    <td align="right">
+     <font face="Arial" size="2">
+     <a href="javaScript:parent.reDisplay('2.1.3',1,0)">Previous</a>&nbsp;
+     <a href="javaScript:parent.reDisplay('2.1',1,0)">Top</a>&nbsp;
+     <a href="javaScript:parent.reDisplay('2.2.1',1,0)">Next</a>
+     </font>
+    </td>
+  </tr>
+</table>
+<br><br>
+
+
+
+<span style="font-family:Times New Roman; font-size:12pt; color:#000000">In order to start working with tiles you should create a new document. Go to <b>Tiles &gt; New</b> or press <span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><img src="new.png" width="20" height="21" border="0"> </span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">on the toolbar.</span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+<img src="menu-tiles.png" width="595" height="248" border="0">
+<br>
+</span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">The toolbar will be activated only after you create or reopen the tile.
+<br>
+</span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">A tile is drawn on the <a href=javaScript:parent.reDisplay('3.2',1,0)>draft</a> with the help of the following tools: <b>Segment</b> <img src="line.png" width="16" height="16" border="0">, <b>Polyline</b> <img src="polyline.png" width="16" height="16" border="0"> and <b>Arc </b><img src="arc.png" width="16" height="16" border="0">. To learn how to draw in details, please refer to the <a href=javaScript:parent.reDisplay('3.3',1,0)>Drawing graphic objects</a> article. Refer to it for explanations. If you find any size errors, you can change the <a href=glossary.html#GraphicPrimitive>drawing entity</a> as described in the <a href=javaScript:parent.reDisplay('3.4',1,0)>Editing graphic objects</a> article.</span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"> </span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">The description of how to draw and edit the graphic objects is deliberately separated in the independent articles since the same methods are used when creating a plot. Though the main points will be mentioned here for better understanding of the drawing process in this chapter.
+<br>
+
+<br>
+To draw a tile you can use two types of lines - solid and dotted ones. You can choose the line type you need in the drop-down menu on the toolbar: </span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+<img src="toolbar-lines.png" width="493" height="241" border="0">
+<br>
+<table border="1" cellpadding="8"><tr><td align="left" valign="top" width="569">
+<span style="font-family:Times New Roman; font-size:12pt; color:#000000"><b>It is important!</b> The external outline should be drawn with a solid line. Dotted line is meant for drawing decorative ornaments on a tile. These line types don't have a great visual differences.<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+&nbsp;<br>
+</span></span></td></tr></table>
+<br>
+</span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">
+<br>
+Irrespective of what you start drawing first - outline with solid line or the decorative pattern of a tile (the second variant is less possible) - the first point set on the draft becomes <a href=glossary.html#basepoint>reference point</a>. It will be further used as a start point to rotate a tile, to create a pattern, and etc. The reference point is displayed on the draft as a purple cross.
+<br>
+
+<br>
+Tile size is always shown in millimeters. This is done so to help you draw complex tiles more precisely, especially those with arcs. If the tile size is too large and does not fit display, feel free to zoom out using the <img src="zoomout.png" width="16" height="16" border="0"> button. Note that after you zoom out the scale it may become harder to draw the outline. For more details about the draft scaling, view the <a href=javaScript:parent.reDisplay('3.6',1,0)>Scale</a> article.</span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><b>
+<br>
+</b>
+<br>
+<i><u><table border="1" cellpadding="8"><tr><td align="left" valign="top" width="567">
+<span style="font-family:Times New Roman; font-size:12pt; color:#000000"><b>Advice.</b> In the <a href=javaScript:parent.reDisplay('3.3',1,0)>Drawing graphic objects</a> article you can find the description of how to work with <a href=javaScript:parent.reDisplay('3.7',1,0)>mini-display</a> if the scale of a daft is too large.<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span></td></tr></table>
+<br>
+</u></i></span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">If a tile does not fit draft then draft's size may be <a href=javaScript:parent.reDisplay('3.2',1,0)>changed</a>.</span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+
+<br>
+</span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">Along with drawing an outline of a tile, the program tries to calculate its area and the number of tiles needed to fill a square meter. This info is displayed on the toolbar.</span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+<img src="s.png" width="547" height="102" border="0">
+<br>
+</span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">To ensure the result is correct, left click on the statistics to make the program re-calculate the figures. Along with the tile area and number of tiles per square meter, the program also displays its thickness. By default it is equal to zero. To set the tile thickness, go to <b>Draft &gt; Tile Thickness</b>. 
+<br>
+</span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><img src="menu-draw-thikness.png" width="489" height="291" border="0">
+<br>
+</span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">Using this menu you can also comment on the tile created. Comments are typically used to note any additional info or remarks.
+<br>
+
+<br>
+After you are done, <a name="savethetile">save the tile draft: go to <b>Tiles</b> <b>&gt;</b> <b>Save</b> or press <img src="save.png" width="21" height="21" border="0"> on the toolbar. Then click <b>Yes</b> on the confirmation window.
+<br>
+<img src="savingtile-ask.png" width="225" height="127" border="0">
+<br>
+By default, a new tile will be named "Untitled":</span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+<img src="savingtile.png" width="313" height="190" border="0">
+<br>
+</span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">If you click <b>OK</b> right away, then the tile will be added in the list of tiles under the default name:
+<br>
+</span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><img src="savetilenoname.png" width="313" height="141" border="0">
+<br>
+</span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">Name the newly created tile.After the name is assigned, you can specify the tiles set, where the new one should be added.
+<br>
+</span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><img src="savetileset.png" width="313" height="188" border="0">
+<br>
+</span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">After save:
+<br>
+<img src="savetileinset.png" width="313" height="315" border="0">
+<br>
+
+<br>
+Some tiles are supplied as a set. As a rule, it's no sense to create a pattern using only one type of the tile from the set. The tiles of a set are put together to create a pattern with the help of several tile types. That is why we advise you to save such tiles as a separate set. Even single tiles (those types that can form pattern without other tile types) can be grouped by a certain character, e.g. colored, smooth, and etc. To create a new set, click <b>New set</b>. Name the set in the pop-up window:
+<br>
+<img src="savetilenewset.png" width="313" height="277" border="0">
+<br>
+Then name the tile and add it to the newly created set:
+<br>
+<img src="savetileinnewset.png" width="313" height="263" border="0">
+<br>
+If you create more tiles that conform to the set, do not forget to specify that set to add new tile when you save them.
+<br>
+<img src="savetilefinish.png" width="313" height="169" border="0">
+<br>
+<table border="1" cellpadding="8"><tr><td align="left" valign="top" width="578">
+<span style="font-family:Times New Roman; font-size:12pt; color:#000000"><b>Advice</b>: If you added a tile to the general list or wrong set by mistake, open this draft, save it once again using the <b>Tiles &gt; Save as...</b> option. After you add the tile to the right set, open the wrong draft and <a href=tileeditor.html#delete>delete</a> it.
+<br>
+</span></td></tr></table>
+<br>
+
+<br>
+When you save the tile, the program also saves parameters of the <a href=javaScript:parent.reDisplay('3.2',1,0)>draft</a> and <a href=javaScript:parent.reDisplay('3.6',1,0)>scale</a>. When you open this draft next time to view or edit it, the position of tile will be the same when saved the draft or closed it last time.
+<br>
+
+<br>
+To edit the tile, go to <b>Tiles &gt; Open</b> or press <img src="open.png" width="23" height="22" border="0"> on the toolbar. Select the tile you need in the list and press <b>OK</b>:</span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+<img src="opendlg.png" width="313" height="218" border="0">
+<br>
+</span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">If you tick the <b>Preview </b>checkbox, you will be able to preview the tile, before opening it:</span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+<img src="opendlgwithpreview.png" width="519" height="223" border="0">
+<br>
+</span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">Select the tile and press <b>OK</b> to open it in the editor. Now you can modify it, save under another name, change name or even delete it.
+<br>
+<b>DO NOT FORGET</b> that if you delete a tile, you will also delete all its patterns and halves. If you are sure that you do not need the opened tile any more, go to <b>Tiles &gt; Delete</b> to delete it:</span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+<img src="deletetile.png" width="490" height="296" border="0"><a name="delete">
+<br>
+
+<br>
+</span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">Using this menu you can also export the tile draft to the BMP file. The <b>Export to</b> <b>bmp</b> option can be found above the <b>Delete</b> option in the <b>Tiles</b> menu. Enter the image name in the "Save as..." window. After you press <b>Save</b>, the 64x64 pixels image will be saved on your hard disk.
+<br>
+</span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">If the tiles set has also halves, you should draw them in the same document to be able to export them too. View the <a href=javaScript:parent.reDisplay('2.2.1',1,0)>next article</a> for details.
+<br>
+</span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span><span style="font-family:Times New Roman; font-size:12pt; color:#000000">After the new tile is ready, create at least one pattern using it. To open the <a href=javaScript:parent.reDisplay('2.3',1,0)>Patterns editor</a>, switch to the main window and find it in the menu. You can also click <img src="icom.png" width="16" height="16" border="0"> on the toolbar to open the editor. This button will be available only after you save the draft.
+<br>
+</span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><img src="callcollageeditor.png" width="492" height="310" border="0">
+<br>
+
+<br>
+</span></span>
+
+</body>
+</html>

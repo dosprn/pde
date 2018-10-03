@@ -1,0 +1,101 @@
+<html>
+<head>
+<title>Several projects in one drawing</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="keywords" content="pavers,pavement,block paving,paving design,paving bricks,paving stone,landscape pavers">
+<link rel="stylesheet" type="text/css" href="/styles.css"/>
+</head>
+<body>
+
+<div class="marginpanel">
+
+<div class="marginpanel">
+<div class="titlepanel">
+<span style="float : left">Paving Design Expert 2.2</span>
+<h1>Several projects in one drawing</h1>
+</div>
+</div>
+
+<div class="marginpanel">
+<div class="alonecontentpanel">
+In version 2.2, several projects can be placed in the same drawing. These conventional projects 
+are completely independent from each other, each of them has its own circuit and pattern. 
+The only thing uniting them - is that they are placed in a single drawing. Of course, each of them 
+can be opened and edited separately from the others.<br>
+Suppose you need to draw the next working draft: 
+<div align="center"><img src="example.bmp"></div><br>
+There are TWO projects. 
+<table width="100%" align="center">
+<tr>
+<td align="center"><img src="externalproject.bmp"></td>
+<td align="center"><img src="internalproject.bmp"></td>
+</tr>
+<tr><td align="center">First - outer square</td><td align="center">Second - internal</td></tr>
+</table>
+This means you need to draw in the one project ALL the borders of the outer square (marked in red), 
+and in other project - ALL internal borders (blue).<br><br>
+All projects placed in the drawing are combined into <i>a set</i>. In a set you can switch between the projects. 
+Currently selected project becomes <i>active</i>. You can edit it. Other projects are unavailable for editing at this time.<br>
+Look at our example. As far as the drawing can place several projects, when drawing complex work projects 
+you can create one basic project that will serve as basis for drawing the remaining projects. 
+In our case the basic design can be like this: 
+<div align="center"><img src="maket.png"></div><br>
+First of all you should establish comfortable <a href="../draftparams/draftparams.html">drawing dimensions</a>. 
+Further in the examples scale is set in "1".<br> 
+Begin to draw. Click the <b>New</b> <img src="new.bmp"> button on the toolbar. 
+A new project "Untitled" is created in the Project Editor. 
+It is added to the set of projects that consists only of this one: 
+<div align="center"><img src="newproject.png"></div><br>
+Note that other buttons become available in the toolbar. Draw a basic design. 
+Drawing is described in details in <a href="/2.0/help/index.html?drawprimitives.html">the manual</a>. 
+In version 2.2, you can also draw <a href="../drawwithdialog/drawwithdialog.html">with help of the dialogue</a>.
+Save the base project called "layout".  
+<div align="center"><img src="maket1.png"></div><br>
+Now according the layout we will create outer borders <a href="../edges/edges.html">edgings</a> of the working draft, 
+squares and lawns.
+Each line of the edging - is a separate project, which is added to a set of projects on creation. 
+Working draft with edgings looks like this: 
+<div align="center"><img src="withedges.png"></div><br>
+And here is how a set of projects looks like:
+<div align="center"><img src="projectset1.png"></div><br>
+Now it's time to fill in the working draft with tiles. Taking into account the beginning of this chapter about projects borders, 
+draw the <a href="../main/main.html">inner space project</a> and fill it with tiles.
+Working with multiple projects in a single drawing you need to closely monitor which of the project 
+is now active. There is a risk to start drawing in the wrong project. So, we created the edgings in 
+the project "layout". If you do not create a new project for the inner space, then you can easily start drawing right 
+in "layout". That’s why, <h2 align="center">do not forget to create new projects for the individual parts of a working project!</h2>
+<div align="center"><img src="main.png"></div><br>
+You also need to save a set of projects after completing the current project. 
+Imagine that after creating the border we saved a set of projects under the name "Lesson 1". 
+Then we drew a project "inner space", as shown above. After that we decided to make a break in 
+a work and closed the program. When you need to continue your work on the detailed design, 
+just open a set of projects. Click "Open set" and select the file "Lesson 1". 
+Get layout with borders, but without an inner space. The matter is we forgot to save a set after 
+adding "inner space" before:
+<div align="center"><img src="withedges.png"></div><br>
+It is easy to fix. Select "New and open projects add to the set" and just open the project "inner space." 
+Now everything looks good. 
+<div align="center"><img src="main.png"></div><br>
+Now we need to save the set - we just added the project "inner space" to it.
+Next time everything will be opened together.<br>
+Create a project to fill the <a href="../quadrangles/quadrangles.html">squares</a>. Draw squares.
+<div align="center"><img src="full.png"></div>
+Again, save the set.<br>
+So, working on multiple projects in a single drawing you must adhere to the following procedure:
+<ol>
+<li>Create a new project
+<li>Draw the project
+<li>Save the project
+<li>Save a set of projects
+<li>Before you change the project make sure that active project is that you are going to change.
+</ol>
+<a name="deleteprojectfromset">Needless project can be removed from the set. For this purpose it is 
+necessary to make it active and click "Remove from the set" <img src="deletesomething.bmp"> 
+on the right of the set of projects. And save a set of projects.<br>
+<br>
+Proceed to the <a href="../final/final.html">working project final processing</a>.
+</div>
+</div>
+</div>
+</body>
+</html>

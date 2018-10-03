@@ -1,0 +1,6 @@
+<Files PavingDesignExpert22_en.exe>
+AuthType Basic
+AuthUserFile /sata2/home/users/pde/www/www.paving-expert.com/2.0/.htpasswd
+AuthName "Paving Design Expert 2.2"
+require valid-user
+</Files>

@@ -1,0 +1,263 @@
+<XML_DIZ_INFO>
+  <MASTER_PAD_VERSION_INFO>
+    <MASTER_PAD_VERSION>4.0</MASTER_PAD_VERSION>
+    <MASTER_PAD_EDITOR>AppVisor 1.0.43</MASTER_PAD_EDITOR>
+    <MASTER_PAD_EDITOR_URL>http://publisher.appvisor.com</MASTER_PAD_EDITOR_URL>
+    <MASTER_PAD_INFO>Portable Application Description, or PAD(TM) 2004 Association of Software Professionals (ASP)http://www.asp-shareware.org/pad is a data set standard and specification that is commercialsoftware publishers to disseminate certified information about their software application. The PAD format is copyright of the ASP and cannot be used without the formal licensing and permission of both the Association of Software Professionals and its agent AppVisor.com.</MASTER_PAD_INFO>
+    <CERTIFIED>No</CERTIFIED>
+    <CERTIFICATE_ID></CERTIFICATE_ID>
+    <CERTIFICATE_LICENSE></CERTIFICATE_LICENSE>
+  </MASTER_PAD_VERSION_INFO>
+  <RoboSoft>
+    <Company_UIN>CMP-EC00205D8E47</Company_UIN>
+    <Product_UIN>APP-FC00528ECE47</Product_UIN>
+    <Publish_on_CD>N</Publish_on_CD>
+    <NewsFeed_Search_String></NewsFeed_Search_String>
+    <Search_String>Paving Design Expert</Search_String>
+    <Press_Release_Search_String></Press_Release_Search_String>
+    <Backlink></Backlink>
+    <Comments_For_Reviewer></Comments_For_Reviewer>
+    <Search_String_Unique>Paving Design Expert</Search_String_Unique>
+    <Search_Engine_Search_String></Search_Engine_Search_String>
+    <Web_Directories_Search_String></Web_Directories_Search_String>
+    <Company_Description></Company_Description>
+  </RoboSoft>
+  <Company_Info>
+    <PublisherID>pid-cc002fd94e47</PublisherID>
+    <BrandID>bid-ec00205d8e47</BrandID>
+    <Company_Name>Paving Design Expert</Company_Name>
+    <Country>Ukraine</Country>
+    <State_Province>N/A</State_Province>
+    <City_Town>Kherson</City_Town>
+    <Zip_Postal_Code>73000</Zip_Postal_Code>
+    <Address_1>15, 9 Sichnya str., ap. 421</Address_1>
+    <Address_2></Address_2>
+    <Company_WebSite_URL>http://www.paving-expert.com</Company_WebSite_URL>
+    <Contact_Info>
+      <Contact_First_Name>Alex</Contact_First_Name>
+      <Contact_Last_Name>Goldberg</Contact_Last_Name>
+      <Contact_Email>support@paving-expert.com</Contact_Email>
+      <Author_First_Name>Alex</Author_First_Name>
+      <Author_Last_Name>Goldberg</Author_Last_Name>
+      <Author_Email>support@paving-expert.com</Author_Email>
+      <Contact_Phone></Contact_Phone>
+    </Contact_Info>
+    <Support_Info>
+      <Sales_Email>support@paving-expert.com</Sales_Email>
+      <Support_Email>support@paving-expert.com</Support_Email>
+      <General_Email>support@paving-expert.com</General_Email>
+      <Sales_Phone></Sales_Phone>
+      <Support_Phone></Support_Phone>
+      <General_Phone></General_Phone>
+      <Fax_Phone></Fax_Phone>
+    </Support_Info>
+    <GooglePlusPage></GooglePlusPage>
+    <LinkedinPage></LinkedinPage>
+    <TwitterCompanyPage></TwitterCompanyPage>
+    <FacebookCompanyPage></FacebookCompanyPage>
+    <CompanyStorePage>http://paving-expert.com/2.0/order.html</CompanyStorePage>
+  </Company_Info>
+  <Program_Info>
+    <AppID>app-fc00528ece47</AppID>
+    <Program_Name>Paving Design Expert</Program_Name>
+    <Program_Version>2.2</Program_Version>
+    <Program_Release_Month>07</Program_Release_Month>
+    <Program_Release_Day>17</Program_Release_Day>
+    <Program_Release_Year>2014</Program_Release_Year>
+    <Program_Cost_Dollars>75</Program_Cost_Dollars>
+    <Program_Cost_Other_Code></Program_Cost_Other_Code>
+    <Program_Cost_Other></Program_Cost_Other>
+    <Program_Type>Demo</Program_Type>
+    <Program_Category_Class>Graphic Apps::CAD</Program_Category_Class>
+    <Program_Specific_Category></Program_Specific_Category>
+    <Program_Categories>Home &amp; Hobby :: Misc. Home,Multimedia and Design :: CAD</Program_Categories>
+    <Program_Release_Status>New Release</Program_Release_Status>
+    <Program_Install_Support>Install and Uninstall</Program_Install_Support>
+    <Program_OS_Support>Win98,WinME,WinNT 4.x,Win2000,WinXP,Win7 x32,Win7 x64,Windows 8,Windows2000,Windows2003,Windows Server 2000,Windows Server 2003,Windows Server 2008,Windows Server 2008r2,Windows Server 2012,WinVista,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,WinVista x64,Windows Vista Home Basic x64,Windows Vista Home Premium x64,Windows Vista Business x64,Windows Vista Enterprise x64,Windows Vista Ultimate x64</Program_OS_Support>
+    <Program_Language>English</Program_Language>
+    <Program_Change_Info>1. In the pattern all the tiles of one form can be replaced by the tiles of another form.
+2. Undo/Redo for colors setting in pattern coloring.
+3. In project Editor while working with multiple projects it's possible to switch between the projects by clicking the right button of the mouse.</Program_Change_Info>
+    <Program_System_Requirements>Win98, RAM 64Mb, VGA 800*600</Program_System_Requirements>
+    <Limitations>Projects saving are limited</Limitations>
+    <Awards></Awards>
+    <File_Info>
+      <File_Size_Bytes>11255808</File_Size_Bytes>
+      <File_Size_K>10992</File_Size_K>
+      <File_Size_MB>10.73</File_Size_MB>
+    </File_Info>
+    <Expire_Info>
+      <Has_Expire_Info>N</Has_Expire_Info>
+      <Expire_Count></Expire_Count>
+      <Expire_Based_On></Expire_Based_On>
+      <Expire_Year></Expire_Year>
+      <Expire_Other_Info></Expire_Other_Info>
+      <Expire_Month></Expire_Month>
+      <Expire_Day></Expire_Day>
+    </Expire_Info>
+    <FacebookFanPage></FacebookFanPage>
+    <VideoLink1URL></VideoLink1URL>
+    <VideoLink2URL></VideoLink2URL>
+    <Includes_JAVA_VM></Includes_JAVA_VM>
+    <Includes_DirectX></Includes_DirectX>
+    <Includes_VB_Runtime></Includes_VB_Runtime>
+    <GooglePlusFanPage></GooglePlusFanPage>
+  </Program_Info>
+  <Web_Info>
+    <Application_URLs>
+      <Application_Info_URL>http://www.paving-expert.com</Application_Info_URL>
+      <Application_Order_URL>http://paving-expert.com/2.0/order.html</Application_Order_URL>
+      <Application_Screenshot_URL>http://paving-expert.com/2.0/help/menu-tileeditor.png</Application_Screenshot_URL>
+      <Application_Icon_URL>http://paving-expert.com/images/icom32.png</Application_Icon_URL>
+      <Application_XML_File_URL>http://repository.appvisor.com/app-fc00528ece47/site-01/Paving_Design_Expert_pad.xml</Application_XML_File_URL>
+    </Application_URLs>
+    <Download_URLs>
+      <Primary_Download_URL>http://paving-expert.com/2.0/PavingDesignExpert22demo_en.exe</Primary_Download_URL>
+      <Secondary_Download_URL></Secondary_Download_URL>
+      <Additional_Download_URL_1></Additional_Download_URL_1>
+      <Additional_Download_URL_2></Additional_Download_URL_2>
+    </Download_URLs>
+  </Web_Info>
+  <Program_Descriptions>
+    <English>
+      <Keywords>pavers,pavement,block paving,paving design,paving bricks,paving stone,landscape pavers</Keywords>
+      <Char_Desc_45>The program helps to design tile paving.</Char_Desc_45>
+      <Char_Desc_80>The program helps to design tile paving and outdoor bricks.</Char_Desc_80>
+      <Char_Desc_250>Paving Design Expert has been built for significantly reduce the time of the development of design paving sidewalk tile and gives to the pavers the possibility to compose several alternative designs and selection of them of the best.</Char_Desc_250>
+      <Char_Desc_450>Main features: Use tiles of any forms. Tile may be drawn with segments and arcs. Decorative lines can be drawn inside tile's edges. Create set of tiles and pave project with pattern which consists of tiles of various forms. Draw projects of any form and any size. Eges may be drawn with segments and arcs too. Blank spaces inside project's edge. Use custom pattern of paving, at your imagination. Change orientation of paving and align it along.</Char_Desc_450>
+      <Char_Desc_2000>With paving of sidewalk tile and blocks besides the qualitative performance of works it is necessary to develop such project of paving, which will appear most aesthetically and it will be entered in the general design of the surrounding space. In this case it is necessary to consider both the wishes of customer and limitations, which escape from the technical characteristics of the selected tile.
+
+In the general case with the design of paving sidewalk tile it is necessary to consider these conditions:
+Selection of the form of the tile
+Selection of pattern, i.e., the method of paving the tile
+To leave place, for example, for the flower bed
+The tiles of the specific color must lie on the boundary of section
+Colored tiles must be encountered in the section, forming the repetitive pattern
+Possibly, customer still itself was not determined with the form of tile and will make a selection before very beginning the paving
+Approaching the work, necessary to know how much will be required the tiles in all, and how many of them colored. But also how many halves and in turn, how many of them the colored
+And still it would be rather well draw sketch maximally approximating the original so that the customer would confirm that he had in the form precisely THIS THING
+It is obvious that the composition of paper sketch or drawing of a similar project of paving sidewalk tile will be very labor-consuming process. But its correction with the purpose to try pave with the diverse variants of block paving becomes the task, impracticable practically.
+
+It is also obvious that the automation of the design of paving sidewalk tile will significantly reduce the time of the development of design and gives the possibility to compose several alternative designs and selection of them of the best. Moreover, draft can be drawn up in the presence of customer with his direct participation. We represent the program 'designer of sidewalk tile', which fulfills all enumerated functions.</Char_Desc_2000>
+    </English>
+  </Program_Descriptions>
+  <Permissions>
+    <Distribution_Permissions>The demo version of 'Paving Design Expert' can be freely distributed over the internet in an unchanged form</Distribution_Permissions>
+    <EULA>This End User License Agreement ('Agreement') is a binding legal agreement between you, as an individual or entity, and Grebenyuk S.A.. By clicking the 'Accept' checkbox in the installer, downloading, installing, or using the Paving Design Expert (the 'Software'), you agree to be bound by the terms of this Agreement. If you do not agree to the Agreement, do not check the 'Accept' box and do not use the Software. You agree that installation or use of the Software signifies that you have read, understood, and agreed to be bound by the Agreement. 
+
+1. All copyrights to the Software are exclusively owned by Grebenyuk S.A.. 
+
+2. The registered user is granted a non-exclusive license to use the Software on one computer at a time, for any legal purpose. The registered Software may not be rented or leased. 
+
+3. All updates to the Software (new versions and bug fixes) are free for life following registration. 
+
+4. THE SOFTWARE IS DISTRIBUTED 'AS IS'. NO WARRANTY OF ANY KIND IS EXPRESSED OR IMPLIED. YOU USE AT YOUR OWN RISK. THE AUTHOR WILL NOT BE LIABLE FOR DATA LOSS, DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING OR MISUSING THIS SOFTWARE. 
+
+5. Grebenyuk S.A. has the exclusive right to distribute the Software. No person or company may charge a fee for the distribution of the Software without written permission from the copyright holder. The Software shareware version may not be bundled or distributed with any other package without written permission of the copyright holder. 
+
+6. You may not use, copy, emulate, clone, rent, lease, sell, modify, decompile, disassemble, otherwise reverse engineer, or transfer the licensed program, or any subset of the licensed program, except as provided for in this agreement. Any such unauthorized use shall result in immediate and automatic termination of this license and may result in criminal and/or civil prosecution. 
+
+7. All rights not expressly granted here are reserved by Grebenyuk S.A.. 
+
+8. Purchasing, installing and using the Software signifies acceptance of these terms and conditions of the license. 
+
+9. If you do not agree with the terms of this license you must remove this Software from your storage devices and cease to use the product.</EULA>
+  </Permissions>
+  <Affiliates>
+    <Affiliates_Regsoft_Order_Page></Affiliates_Regsoft_Order_Page>
+    <Affiliates_Regnow_Order_Page></Affiliates_Regnow_Order_Page>
+    <Affiliates_Regsoft_Vendor_ID></Affiliates_Regsoft_Vendor_ID>
+    <Affiliates_Regnow_Vendor_ID></Affiliates_Regnow_Vendor_ID>
+    <Affiliates_Regsoft_Product_ID></Affiliates_Regsoft_Product_ID>
+    <Affiliates_Regnow_Product_ID></Affiliates_Regnow_Product_ID>
+    <Affiliates_FORM></Affiliates_FORM>
+    <Affiliates_FORM_VER></Affiliates_FORM_VER>
+    <Affiliates_VERSION></Affiliates_VERSION>
+    <Affiliates_URL></Affiliates_URL>
+    <Affiliates_Information_Page></Affiliates_Information_Page>
+    <Affiliates_Avangate_Order_Page></Affiliates_Avangate_Order_Page>
+    <Affiliates_Avangate_Vendor_ID></Affiliates_Avangate_Vendor_ID>
+    <Affiliates_Avangate_Product_ID></Affiliates_Avangate_Product_ID>
+    <Affiliates_Avangate_Maximum_Commission_Rate></Affiliates_Avangate_Maximum_Commission_Rate>
+    <Affiliates_BMTMicro_Order_Page></Affiliates_BMTMicro_Order_Page>
+    <Affiliates_BMTMicro_Vendor_ID></Affiliates_BMTMicro_Vendor_ID>
+    <Affiliates_BMTMicro_Product_ID></Affiliates_BMTMicro_Product_ID>
+    <Affiliates_BMTMicro_Maximum_Commission_Rate></Affiliates_BMTMicro_Maximum_Commission_Rate>
+    <Affiliates_eSellerate_Order_Page></Affiliates_eSellerate_Order_Page>
+    <Affiliates_eSellerate_Vendor_ID></Affiliates_eSellerate_Vendor_ID>
+    <Affiliates_eSellerate_Product_ID></Affiliates_eSellerate_Product_ID>
+    <Affiliates_eSellerate_Maximum_Commission_Rate></Affiliates_eSellerate_Maximum_Commission_Rate>
+    <Affiliates_Kagi_Order_Page></Affiliates_Kagi_Order_Page>
+    <Affiliates_Kagi_Vendor_ID></Affiliates_Kagi_Vendor_ID>
+    <Affiliates_Kagi_Product_ID></Affiliates_Kagi_Product_ID>
+    <Affiliates_Kagi_Maximum_Commission_Rate></Affiliates_Kagi_Maximum_Commission_Rate>
+    <Affiliates_Order1_Order_Page></Affiliates_Order1_Order_Page>
+    <Affiliates_Order1_Vendor_ID></Affiliates_Order1_Vendor_ID>
+    <Affiliates_Order1_Product_ID></Affiliates_Order1_Product_ID>
+    <Affiliates_Order1_Maximum_Commission_Rate></Affiliates_Order1_Maximum_Commission_Rate>
+    <Affiliates_Regnet_Order_Page></Affiliates_Regnet_Order_Page>
+    <Affiliates_Regnet_Vendor_ID></Affiliates_Regnet_Vendor_ID>
+    <Affiliates_Regnet_Product_ID></Affiliates_Regnet_Product_ID>
+    <Affiliates_Regnet_Maximum_Commission_Rate></Affiliates_Regnet_Maximum_Commission_Rate>
+    <Affiliates_Regnow_Maximum_Commission_Rate></Affiliates_Regnow_Maximum_Commission_Rate>
+    <Affiliates_Regsoft_Maximum_Commission_Rate></Affiliates_Regsoft_Maximum_Commission_Rate>
+    <Affiliates_ShareIt_Order_Page></Affiliates_ShareIt_Order_Page>
+    <Affiliates_ShareIt_Vendor_ID></Affiliates_ShareIt_Vendor_ID>
+    <Affiliates_ShareIt_Product_ID></Affiliates_ShareIt_Product_ID>
+    <Affiliates_ShareIt_Maximum_Commission_Rate></Affiliates_ShareIt_Maximum_Commission_Rate>
+    <Affiliates_SWReg_Order_Page></Affiliates_SWReg_Order_Page>
+    <Affiliates_SWReg_Vendor_ID></Affiliates_SWReg_Vendor_ID>
+    <Affiliates_SWReg_Product_ID></Affiliates_SWReg_Product_ID>
+    <Affiliates_SWReg_Maximum_Commission_Rate></Affiliates_SWReg_Maximum_Commission_Rate>
+  </Affiliates>
+  <NewsFeed>
+    <NewsFeed_FORM></NewsFeed_FORM>
+    <NewsFeed_VERSION></NewsFeed_VERSION>
+    <NewsFeed_URL></NewsFeed_URL>
+    <NewsFeed_DESCRIPTION></NewsFeed_DESCRIPTION>
+    <NewsFeed_Feed_URL></NewsFeed_Feed_URL>
+    <NewsFeed_Type></NewsFeed_Type>
+    <NewsFeed_Site_URL></NewsFeed_Site_URL>
+    <NewsFeed_Author_First_Name>Alex</NewsFeed_Author_First_Name>
+    <NewsFeed_Author_Last_Name>Goldberg</NewsFeed_Author_Last_Name>
+    <NewsFeed_Author_Email>support@paving-expert.com</NewsFeed_Author_Email>
+    <NewsFeed_Language></NewsFeed_Language>
+    <NewsFeed_Title></NewsFeed_Title>
+    <NewsFeed_Description_70></NewsFeed_Description_70>
+    <NewsFeed_Description_250></NewsFeed_Description_250>
+    <NewsFeed_Purpose></NewsFeed_Purpose>
+    <NewsFeed_Site_Name></NewsFeed_Site_Name>
+  </NewsFeed>
+  <Press_Release>
+    <Press_Release></Press_Release>
+    <Headline></Headline>
+    <Summary></Summary>
+    <Press_Release_Plain></Press_Release_Plain>
+  </Press_Release>
+  <Site>
+    <Site_FORM></Site_FORM>
+    <Site_VERSION></Site_VERSION>
+    <Site_URL></Site_URL>
+    <Site_DESCRIPTION></Site_DESCRIPTION>
+    <Site_Site_Title>Paving Design Expert has been built for significantly reduce</Site_Site_Title>
+    <Site_Site_URL>http://www.paving-expert.com</Site_Site_URL>
+    <Site_Keywords>pavers,pavement,block paving,paving design,paving bricks,paving stone,landscape pavers</Site_Keywords>
+    <Site_Description_100>The program helps to design tile paving and outdoor bricks.</Site_Description_100>
+    <Site_Description_250>Paving Design Expert has been built for significantly reduce the time of the development of design paving sidewalk tile and gives to the pavers the possibility to compose several alternative designs and selection of them of the best.</Site_Description_250>
+    <Site_Description_450>Main features: Use tiles of any forms. Tile may be drawn with segments and arcs. Decorative lines can be drawn inside tile's edges. Create set of tiles and pave project with pattern which consists of tiles of various forms. Draw projects of any form and any size. Eges may be drawn with segments and arcs too. Blank spaces inside project's edge. Use custom pattern of paving, at your imagination. Change orientation of paving and align it along.</Site_Description_450>
+    <Site_Contact_First_Name>Alex</Site_Contact_First_Name>
+    <Site_Contact_Last_Name>Goldberg</Site_Contact_Last_Name>
+    <Site_Contact_Email>support@paving-expert.com</Site_Contact_Email>
+  </Site>
+  <Dynamic_PAD>
+    <General>
+      <DP_Pad_Enabled>TRUE</DP_Pad_Enabled>
+      <DP_AtFormFill_Enabled>TRUE</DP_AtFormFill_Enabled>
+      <DP_Distributive_Enabled>TRUE</DP_Distributive_Enabled>
+      <DP_Script_Base_URL>http://repository.appvisor.com/</DP_Script_Base_URL>
+      <DP_Pad_Mask>Paving_Design_Expert_pad.xml</DP_Pad_Mask>
+      <DP_Distributive_Primary_URL>http://paving-expert.com/2.0/PavingDesignExpert22demo_en.exe</DP_Distributive_Primary_URL>
+      <DP_Distributive_Mask>PavingDesignExpert22demo_en.exe</DP_Distributive_Mask>
+    </General>
+  </Dynamic_PAD>
+</XML_DIZ_INFO>

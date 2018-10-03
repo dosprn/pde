@@ -1,0 +1,142 @@
+<html>
+<head>
+<title>Main space tile filling</title>
+<meta name="keywords" content="pavers,pavement,block paving,paving design,paving bricks,paving stone,landscape pavers">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" type="text/css" href="/styles.css"/>
+</head>
+<body>
+<div class="marginpanel">
+
+<div class="marginpanel">
+<div class="titlepanel">
+<span style="float : left">Paving Design Expert 2.2</span>
+<h1>Main space tile filling</h1>
+</div>
+</div>
+
+<div class="marginpanel">
+<div class="alonecontentpanel">
+This is how working project looks like after creating the edgings. 
+<div align="center"><img src="main1.png"></div><br>
+Now we have to draw the boundaries of the internal space. On the picture below they are shown in blue.
+<div align="center"><img src="main2.png"></div><br>
+There are several ways to draw the borders in these conditions.
+<ol>
+<li>In this lesson we have already seen how to draw using the <a href="../drawwithdialog/drawwithdialog.html">line drawing dialog</a>.
+<li>Just draw the line, as described in the <a href="/help/index.html?drawprimitives.html">reference manual</a>. 
+In this case we will have to trace the outline of the layout. For this purpose we need to accurately 
+hit the mouse to the reference points, which is not easy to do at a small scale. In a large scale 
+the ends of the reference line may be beyond the screen and drawing a line from end to end will be impossible. 
+<li>In order to solve the problem mentioned above it is convenient to <a href="../drawwithminidisplay/drawwithminidisplay.html">draw using the mini display</a>.
+</ol>
+So we create a new project. Draw the contours by one of the depicted ways, save a project named 
+"Inner space" and choose a pattern for it "Crosses 100x200 (simple pattern) ". 
+Pattern will appear in the upper left corner of the draft. 
+<div align="center"><img src="main3.png"></div><br>
+Set the starting point <img src="startpoint.bmp"> in the lower left corner and fill the tiles <img src="fill.bmp">. 
+<div align="center"><img src="main4.png"></div><br>
+Now you need <a name="colorpattern">to paint the tiles</a>. Pre-read how to create and 
+save <a href="../customcolors/customcolors.html">custom colors</a> for later use.
+Suppose colors have been created, as it is written. We need to load them into the project.<br>
+Zoom in to make it clearer.<br>
+We will paint the limited fragment by pattern. This pattern will be spread over the whole project 
+space. Mentally (<i>mentally!</i>) divide the space into equal parts. At first sight you need to divide the 
+space into rectangles which are equal to the pattern size. 
+<div align="center"><img src="main5.png"></div><br>
+But let's look more closely. Fragments in the even rows are not the same fragments as in the odd rows. 
+Here tiles are stacked in different ways. So you won’t spread the color pattern on all the fragments.<br> 
+In fact, it is necessary to share like this:
+<div align="center"><img src="main6.png"></div><br>
+Or like this:
+<div align="center"><img src="main7.png"></div><br>
+Choose the first option. Choose the tool "Highlight tile" <img src="pointedarrow.bmp"> and select the tile. 
+<div align="center"><img src="main8.png"></div><br>
+Choose the same tiles in the neighboring fragments in two different directions. 
+(For <i>two</i> - because the fragments are located in the cells of <i>rectangular</i> grid. 
+If we fill the field by hexagonal tiles, the fragments will lie in the cells of the hexagonal grid, 
+and from the first selected tile we’ll have to specify the allocation of the remaining tiles in three different directions).
+<div align="center"><img src="main9.png"></div><br>
+Click "Multiply selection" <img src="multisel.bmp">. 
+<div align="center"><img src="main10.png"></div><br>
+Open the color selection dialog <img src="colordlg.bmp"> and select our first <a href="../customcolors/customcolors.html">created</a> color.
+<div align="center"><img src="colorpalette1.png"></div><br>
+All selected tiles will change color and stay highlighted:
+<div align="center"><img src="main11.png"></div><br>
+Click "Drop selection" <img src="dropselection.bmp">. Get the colored tiles all over the space:
+<div align="center"><img src="main12.png"></div><br>
+Repeat the same procedure for the second tile of the pattern. Select:
+<div align="center"><img src="main13.png"></div><br>
+Choose a color:
+<div align="center"><img src="colorpalette2.png"></div><br>
+Drop the selection and get:
+<div align="center"><img src="main14.png"></div><br>
+Repeat the same for the remaining two tiles of the pattern, color by the remaining two colors.
+<div align="center"><img src="main15.png"></div><br>
+<div align="center"><img src="main16.png"></div><br>
+Reduce the scale and estimate the project. 
+<div align="center"><img src="main17.png"></div><br>
+It looks not good enough.<br>
+Now we are going to remake it. At first you need to clear the tiles from the coloring. There are two ways to do it:
+<ol>
+<li>Radical. Remove all the tiles <img src="deltiles.bmp"> and complete the project again. 
+<li>Assign the default gray color to all tiles.
+</ol>
+Let’s consider the second method. Choose the tool "Select tile" <img src="pointedarrow.bmp"> and 
+draw out all the tiles with the mouse while holding the left mouse button: 
+<div align="center"><img src="selectalltiles1.png"></div><br>
+When we release the mouse button in the right-bottom corner, all the tiles will be selected:
+<div align="center"><img src="selectalltiles2.png"></div>
+Remember that active project we have now is "Inner space." Therefore, its tiles were selected only, 
+although we covered everything by mouse including edging tiles.<br>
+Open the color select dialog and choose the tiles color by default.
+<div align="center"><img src="colorpalette3.png"></div><br>
+
+<a name="groupcoloring"><h2>Tiles group coloring</h2></a>
+Choose a larger scale for the convenient work with tiles selection. 
+To get a more beautiful color pattern, it is necessary to choose the larger fragments. 
+<div align="center"><img src="group1.png"></div><br>
+Or like this:
+<div align="center"><img src="group2.png"></div><br>
+We will paint by the first type. Select the tiles as shown below, at first select 
+the most left upper tile:<br>
+<div align="center"><img src="group3.png"></div><br>
+Click "Remember selected tiles" <img src="fixsel.bmp">. Tiles are selected in red, 
+and the first of them excels in green:
+<div align="center"><img src="group4.png"></div><br>
+It means that the selected tiles formed a group, and the first tile has become the 
+<i>bearing</i> tile of a group. Select the bearing tiles in the neighboring fragments. 
+They are located in their fragments in the same place where the bearing tile in its fragment.
+<div align="center"><img src="group5.png"></div><br>
+Click "Multiply selection" <img src="multisel.bmp">. The groups of tiles will be selected throughout the space. 
+<div align="center"><img src="group6.png"></div><br>
+Open the color selection dialog <img src="colordlg.bmp"> and select our first <a href="../customcolors/customcolors.html">created</a> color.
+<div align="center"><img src="colorpalette1.png"></div><br>
+Click "Drop selection" <img src="dropselection.bmp">. Get the colored tiles around the space:
+<div align="center"><img src="group7.png"></div><br>
+Color tiles in the pattern by the second color. Repeat the same steps. Select the tile:
+<div align="center"><img src="group8.png"></div><br>
+Click "Remember selected tiles" <img src="fixsel.bmp">. Select the neighboring fragments bearing tiles.
+<div align="center"><img src="group9.png"></div><br>
+Click "Multiply selection" <img src="multisel.bmp">. Throughout the space the groups of tiles will be selected.
+<div align="center"><img src="group10.png"></div><br>
+Open the color selection dialog <img src="colordlg.bmp"> and select a second color.
+<div align="center"><img src="colorpalette2.png"></div><br>
+After that, drop the selection and we get the following picture.
+<div align="center"><img src="group11.png"></div><br>
+Select the tiles in the pattern for a third color and paint them.
+<div align="center"><img src="group12.png"></div><br>
+<div align="center"><img src="group13.png"></div><br>
+Select the tiles in the pattern for the fourth color and paint them.
+<div align="center"><img src="group14.png"></div><br>
+<div align="center"><img src="group15.png"></div><br>
+Finally we get such an intricate coloring.
+<div align="center"><img src="main18.png"></div><br>
+<h3 align="center">Save the project after all the changes!</h3>
+<h3 align="center">Save a set of projects with the "Save set"!</h3>
+Proceed to filling the <a href="../quadrangles/quadrangles.html">squares</a>.
+</div>
+</div>
+</div>
+</body>
+</html>
